@@ -23,6 +23,7 @@ Web ini menampilkan biodata lengkap, galeri foto, dan musik background.
    - [Static.so](https://static.so/)
    - [Netlify](https://www.netlify.com/)
 4. Tunggu beberapa detik → dapat link **HTTPS** langsung.
+5. bisa dengan cara buka z Archiver»buat folder contoh(JKT48.HTML)»simpan, buka di chrome.WAJIB COPY HTML PILIH YG INDEX.HTML ATAU JKT48.HTML
 
 ---
 
