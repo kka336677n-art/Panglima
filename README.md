@@ -1,3 +1,5 @@
+## MASING MASING FILE MEMILIKI FUSAL ATAU GAYA GAMBAR YG BERBEDA BUKA SATU OER SATU UNTUK BISA MENGETAHUI PERBEDAAN NYA🥰
+
 # Fansite Angelina Christy | JKT48
 
 Website ini adalah **fansite sederhana** untuk Angelina Christy, member JKT48 generasi ke-7.  
