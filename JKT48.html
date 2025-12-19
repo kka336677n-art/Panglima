@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angelina Christy | JKT48</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: linear-gradient(135deg, #ffe0ec, #ffffff);
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #e91e63, #ff5fa2);
+      color: white;
+      text-align: center;
+      padding: 60px 20px;
+    }
+    header h1 { margin: 0; font-size: 36px; }
+    header p { margin-top: 10px; font-size: 18px; }
+
+    .container {
+      max-width: 1000px;
+      margin: -40px auto 40px;
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      padding: 30px;
+    }
+
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+    }
+
+    .profile img {
+      width: 260px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .profile-text h2 {
+      margin-top: 0;
+      color: #e91e63;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table td {
+      padding: 10px;
+      border-bottom: 1px solid #eee;
+    }
+
+    table td:first-child {
+      font-weight: bold;
+      width: 35%;
+    }
+
+    .gallery {
+      margin-top: 40px;
+    }
+
+    .gallery h2 {
+      color: #e91e63;
+    }
+
+    .gallery img {
+      width: 220px;
+      margin: 10px;
+      border-radius: 12px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #777;
+      font-size: 14px;
+    }
+
+    .toggle {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background: #e91e63;
+      color: white;
+      border: none;
+      padding: 10px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    body.dark {
+      background: linear-gradient(135deg, #1a1a1a, #2a2a2a);
+      color: #eee;
+    }
+
+    body.dark .container { background: #1f1f1f; }
+    body.dark table td { border-color: #333; }
+    body.dark footer { color: #aaa; }
+
+    @media (max-width: 768px) {
+      .profile { flex-direction: column; text-align: center; }
+      table td:first-child { width: auto; }
+    }
+  </style>
+</head>
+<body>
+
+<button class="toggle" onclick="toggleDark()">🌙 Mode</button>
+<div class="container">
+
+  <section class="profile">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/20191221_JKT48_at_JKT48_Joy_Kick_Tears_HSF_-_Angelina_Christy_%28Christy%29_%284%29.jpg" alt="Angelina Christy JKT48" />
+    <div class="profile-text">
+      <h2>Tentang Christy</h2>
+      <p>
+        Angelina Christy, atau akrab disapa <b>Christy</b>, adalah idol Indonesia dan anggota grup JKT48 generasi ke-7. 
+        Ia dikenal dengan visual menarik, kepribadian ceria, dan bakatnya di dunia hiburan sejak usia muda.
+      </p>
+    </div>
+  </section>
+
+  <section>
+    <h2 style="color:#e91e63; margin-top:40px;">Biodata Lengkap</h2>
+    <table>
+      <tr><td>Nama Lengkap</td><td>Angelina Christy</td></tr>
+      <tr><td>Nama Panggung</td><td>Christy JKT48</td></tr>
+      <tr><td>Tanggal Lahir</td><td>5 Desember 2005</td></tr>
+      <tr><td>Tempat Lahir</td><td>Jakarta, Indonesia</td></tr>
+      <tr><td>Zodiak</td><td>Sagitarius</td></tr>
+      <tr><td>Golongan Darah</td><td>O</td></tr>
+      <tr><td>Tinggi Badan</td><td>±165 cm</td></tr>
+      <tr><td>Generasi</td><td>JKT48 Generasi ke-7</td></tr>
+      <tr><td>Hobi</td><td>Bermain game, modeling</td></tr>
+      <tr><td>Instagram</td><td><a href="https://instagram.com/jkt48.christy" target="_blank">@jkt48.christy</a></td></tr>
+      <tr><td>TikTok</td><td><a href="https://tiktok.com/@christyjkt48" target="_blank">@christyjkt48</a></td></tr>
+    </table>
+  </section>
+
+  <section class="gallery">
+    <h2>Galeri Foto</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/77/20191221_JKT48_at_JKT48_Joy_Kick_Tears_HSF_-_Angelina_Christy_%28Christy%29_%285%29.jpg" alt="Christy JKT48" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/20191221_JKT48_at_JKT48_Joy_Kick_Tears_HSF_-_Angelina_Christy_%28Christy%29_%281%29.jpg" alt="Christy JKT48" />
+  </section>
+
+</div>
+
+<footer>
+  © 2025 Fansite Angelina Christy • JKT48
+</footer>
+
+<iframe id="ytplayer" width="0" height="0" src="https://www.youtube.com/embed/5D9UQxYp7E0?enablejsapi=1&autoplay=1&loop=1&playlist=5D9UQxYp7E0" frameborder="0" allow="autoplay"></iframe>
+
+<script>
+function toggleDark(){
+  document.body.classList.toggle('dark');
+}
+function playMusic(){
+  ytplayer.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+}
+function pauseMusic(){
+  ytplayer.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*');
+}
+</script>
+
+</body>
+</html>
