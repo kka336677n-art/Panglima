@@ -26,6 +26,13 @@ Web ini menampilkan biodata lengkap, galeri foto, dan musik background.
 5. bisa dengan cara buka z Archiver»buat folder contoh(JKT48.HTML)»simpan, buka di chrome.WAJIB COPY HTML PILIH YG INDEX.HTML ATAU JKT48.HTML
 
 ---
+## CARA PALING MUDAH 
+• Download file denga cara tap bagian tulisan code warna hijau»pilih opsi lokal»dwonload file zip
+• buka z archiver lalu buka folder download lalu ekstrak 
+• setelah itu pilih folder buat menyimpan file ekstrak 
+• buka di chrome 
+
+---
 
 ## Media Sosial Christy
 - Instagram: [@jkt48.christy](https://instagram.com/jkt48.christy)
